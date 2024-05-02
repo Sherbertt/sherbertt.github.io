@@ -110,6 +110,15 @@ button {
     transition: transform 2s ease;
 }
 
+#mp4Background {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    overflow-y:hidden;
+    object-fit: cover;
+    min-height: 100vh;
+}
+
 @keyframes spin {
      from{
          transform: rotate(0deg);
